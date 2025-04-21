@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Clínica Vida Saudável</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+    }
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    h1, h2 {
+      margin: 0.5rem 0;
+    }
+    section {
+      padding: 2rem;
+      background: white;
+      margin: 1rem auto;
+      max-width: 900px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .services img, .team img {
+      width: 100%;
+      max-width: 250px;
+      border-radius: 8px;
+      margin: 1rem 0;
+    }
+    .services, .team {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .card {
+      flex: 1 1 calc(30% - 1rem);
+      background: #f9f9f9;
+      padding: 1rem;
+      border-radius: 8px;
+      text-align: center;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    input, select {
+      padding: 0.75rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    button {
+      padding: 0.75rem;
+      background: #4CAF50;
+      color: white;
+      border: none;
+      font-size: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Clínica Vida Saudável</h1>
+    <p>Cuidando de você em cada detalhe</p>
+  </header>
+
+  <section>
+    <h2>Serviços</h2>
+    <div class="services">
+      <div class="card">
+        <img src="https://via.placeholder.com/250x150?text=Consulta+Médica" alt="Consulta Médica" />
+        <h3>Consulta Médica</h3>
+        <p>Atendimento com clínicos gerais e especialistas.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/250x150?text=Exames+Laboratoriais" alt="Exames Laboratoriais" />
+        <h3>Exames Laboratoriais</h3>
+        <p>Coleta e análise com resultados rápidos e precisos.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Nossa Equipe</h2>
+    <div class="team">
+      <div class="card">
+        <img src="https://via.placeholder.com/250?text=Dra.+Ana" alt="Dra. Ana" />
+        <h3>Dra. Ana Souza</h3>
+        <p>Clínica Geral</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/250?text=Dr.+Carlos" alt="Dr. Carlos" />
+        <h3>Dr. Carlos Lima</h3>
+        <p>Nutricionista</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/250?text=Dra.+Marina" alt="Dra. Marina" />
+        <h3>Dra. Marina Rocha</h3>
+        <p>Radiologista</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Inscreva-se para saber mais</h2>
+    <form>
+      <input type="text" name="nome" placeholder="Seu nome" required />
+      <input type="email" name="email" placeholder="Seu e-mail" required />
+      <input type="text" name="cidade" placeholder="Cidade" required />
+      <input type="text" name="estado" placeholder="Estado" required />
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+</body>
+</html>
