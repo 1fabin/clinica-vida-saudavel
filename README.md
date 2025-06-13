@@ -18,3 +18,5 @@ Este projeto é uma landing page estática desenvolvida para a Clínica Vida Sau
 1. Baixe ou clone este repositório:
 ```bash
 git clone https://github.com/1fabin/clinica-vida-saudavel.git
+
+`Desenvolvido por propósitos acadêmicos.`
